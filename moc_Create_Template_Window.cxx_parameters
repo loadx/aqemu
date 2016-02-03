@@ -1,0 +1,13 @@
+-I/usr/local/Cellar/qt/4.8.7_2/include
+-F/usr/local/Cellar/qt/4.8.7_2/lib
+-I/usr/local/Cellar/qt/4.8.7_2/include/QtGui
+-I/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Headers
+-ILIBVNCCLIENT_INCLUDE_DIR-NOTFOUND
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DVNC_DISPLAY
+-DQTONLY
+-o
+/Users/loadx/Downloads/aqemu-0.8.2/moc_Create_Template_Window.cxx
+/Users/loadx/Downloads/aqemu-0.8.2/Create_Template_Window.h
